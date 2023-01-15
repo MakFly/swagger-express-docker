@@ -1,0 +1,36 @@
+{
+  "openapi": "3.0.0",
+  "info": {
+    "version": "1.0.0",
+    "title": "API JWT",
+    "description": "A minimal and easy to follow example of what you need to create a CRUD style API in NodeJs using TypeScript",
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "HTTP",
+      "description": "Local Dev"
+    },
+    {
+      "url": "HTTPS",
+      "description": "!--With docker-compose and nginx proxy--!"
+    }
+  ],
+  "tags": [
+    {
+      "name": "User",
+      "description": "API for users in the system"
+    }
+  ],
+  "consumes": [
+    "application/json"
+  ],
+  "produces": [
+    "application/json"
+  ],
+  "paths": {
+  }
+}
